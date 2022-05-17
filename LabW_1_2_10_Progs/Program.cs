@@ -11,7 +11,7 @@ switch (inputNum)
             Console.WriteLine("Введите y");
             int b = Convert.ToInt32(Console.ReadLine());
             bool ab = true;
-            for (; ; )
+            while (true)
             {
                 Console.WriteLine("1.Сложение \n2.Вычитание \n3.Умножение" +
                 " \n4.Деление \n5.Остаток от деления \n6.Квадрат, если ab=true");
@@ -59,7 +59,7 @@ switch (inputNum)
             int a, b;
             a = Convert.ToInt32(Console.ReadLine());
             b = a;
-            for (; ; )
+            while (true)
             {
                 a = Convert.ToInt32(Console.ReadLine());
                 b += a;
@@ -117,6 +117,7 @@ switch (inputNum)
                     n++;
                 }
             }
+
             break;
         }
     //4-Задание
@@ -189,3 +190,4 @@ switch (inputNum)
             break;
         }
 }
+Console.ReadLine();
